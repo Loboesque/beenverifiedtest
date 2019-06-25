@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Landing</title>
+</head>
+
+<body>
+    <section class="header-searchbar-sect">
+        <header class="Logo-glass-person">
+            <nav class="navItems">
+                <img id="company-logo" src="img/assets/PNGs/Logo@2x.png" alt="Company Logo">
+                <div>
+                    <img id="magGlass" src="img/assets/PNGs/icn_search@2x.png" alt="MagnifyingGlass">
+                    <img id="person" src="img/assets/PNGs/icn_person@2x.png" alt="Person">
+                </div>
+            </nav>
+        </header>
+        <div class="search-email">
+            <h1 class="h1-white">Search Any Email Address</h1>
+        </div>
+        <div class="subtitle-div">
+            <h2 class="upper-subtitle"> <span class="yellow">Start Here</span> - Look up the owner's name, photos and online
+                profiles. See what you find!</h2>
+        </div>
+        <div class="searchbar">
+            <input type="email" id="email" placeholder="EMAIL" required>
+            <button type="button" id="go-button">GO!</button>
+        </div>
+        <div class="lock-div">
+            <img src="img/assets/PNGs/lock@2x.png" id="lock-icon" alt="lock">
+            <h4>Enter Any Email Address. They won't be notified.</h4>
+        </div>
+    </section>
+    <section class="Reverse-email-sect">
+        <div class="reverse-email-lookup">
+            <h1 class="h1-blue">Reverse Email Lookup</h1>
+        </div>
+        <div class="reverse-email-lookup-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+        </div>
+        <section class="divs-section">
+            <div class="container1">
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">1</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">2</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">3</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">4</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">5</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lorem-divs">
+                    <div class="dot">
+                        <p class="numbers">6</p>
+                    </div>
+                    <div class="divs-container">
+                        <h2>Lorem Ipsum</h2>
+                        <p class="inner-div-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <section class="footer">
+        <div class="footer-paragraph">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+        </div>
+        <div class="terms-privacy">
+            <h5>Terms | Privacy</h5>
+        </div>
+    </section>
+</body>
+
+</html>
