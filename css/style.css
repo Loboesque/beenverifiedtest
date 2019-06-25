@@ -1,0 +1,734 @@
+/*items*/
+
+.h1-white{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center; 
+}
+
+.h1-blue{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-weight: bold;
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center; 
+}
+
+.upper-subtitle{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+h4{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+/*classes*/
+
+.header-searchbar-sect{
+    height: 444px;
+    width: 1440px;
+    background-color: #004A80;
+    overflow:auto;
+}
+
+.Logo-glass-person {
+    width: 980px;
+    padding: 20px 230px 52px 230px;
+    
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-email{
+    height: 62px;
+    width: 980px;
+    padding: 0px 230px 0px 230px;
+}
+
+.subtitle-div{
+    height: 28px;
+    width: 980px;
+    padding: 15px 230px 30px 230px;
+}
+
+.yellow{
+   color: #F6BC25;
+   font-weight: bold;
+}
+.searchbar{
+    padding: 0px 230px 30px 230px;
+    height: 62px;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.lock-div{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 230px;
+}
+
+.Reverse-email-sect{
+    height: 716px;
+    width: 1440px;
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    padding-bottom: 60px;
+
+}
+
+.reverse-email-lookup{
+    padding: 40px 230px 20px 230px;
+    height: 70px;
+    width: 980px;
+}
+
+.reverse-email-lookup-text{
+    padding: 0px 230px 40px 230px;
+    height: 90px;
+    width: 980px;
+}
+
+.reverse-email-lookup-text p{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.lorem-divs{
+    height: 122px;
+    width: 490px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+}
+
+.divs-section{
+    height: 456px;
+    width: 1040px;
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.dot {
+    height: 90px;
+    width: 90px;
+    background-color: #004A80;
+    border-radius: 100%;
+    /*behavior: url(PIE.htc);
+    remove if you don't care about IE8*/ 
+    padding: 8px;
+}
+
+.numbers{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 48px;
+    color: #F6BC25;
+    font-weight: bold;
+    margin: 14px 31.5px 19px 31.5px;
+    letter-spacing: 0;
+}
+
+.inner-div-text{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.divs-container{
+    height: 78px;
+    width: 380px;
+    margin-left: 20px;
+}
+
+.divs-container h2{
+    margin-bottom: 8px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+.footer{
+    width: 1440px;
+    height: 68px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-paragraph{
+    margin: 14px 126px 14px 130px;
+    width: 960px;
+    height: 40px;
+}
+
+.footer-paragraph p{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.terms-privacy{
+    height: 17px;
+    width: 103px;
+    margin: 25px 121px 25px 126px; 
+
+}
+
+.terms-privacy h5{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #004A80;
+}
+
+
+input::placeholder {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+}
+
+
+
+/*ID section*/
+
+#company-logo{
+    height: 25px;
+    width: 173px;
+    justify-self: left;
+}
+
+#magGlass{
+    height: 23px;
+    width: 23px;
+}
+#person {
+    height: 23px;
+    width: 23px;
+    padding-left: 25px;
+    /*margin-bottom: 50px;*/
+}
+
+#email{
+    width: 780px;
+    height: 70px;
+}
+
+#go-button{
+    width: 180px;
+    height: 70px;
+    /*background-image: linear-gradient(to right , #F6BC25 , #F2DA56);*/
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004A80;
+    margin-left: 10px;
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+}
+
+#go-button:active{
+    width: 180px;
+    height: 70px;
+    /*background-image: linear-gradient(to right , #F6BC25 , #F2DA56);*/
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004A80;
+    margin-left: 10px;
+    background: #F6BC25;
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+}
+
+#go-button:not(:focus):hover {
+    width: 180px;
+    height: 70px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004A80;
+    margin-left: 10px;
+    background: #F2DA56;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+}
+
+
+#lock-icon{
+    height: 19px;
+    width: 15px;
+    padding: 0px 15px 0px 0px;
+}
+
+
+/* beginning of RESPONSIVE CSS */
+/* TABLET RES*/
+
+@media only screen and (max-width: 768px){
+
+    body {
+        width: 768px;
+    }
+
+    /*CLASSES*/
+
+    .header-searchbar-sect{
+        height: 423px;
+        width: 768px;
+        background-color: #004A80;
+        overflow:auto;
+    }
+
+    .Logo-glass-person {
+        width: 738px;
+        padding: 20px 15px 52px 15px;
+        
+    }
+    .searchbar{
+        padding: 0px 25px 30px 25px;
+        height: 62px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .upper-subtitle{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .search-email{
+        height: 57px;
+        width: 718px;
+        padding: 0px 25px 0px 25px;
+    }
+
+    .h1-white{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-weight: bold;
+        font-size: 38px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center; 
+    }
+
+    .h1-blue{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-weight: bold;
+        font-size: 38px;
+        color: #004A80;
+        letter-spacing: 0;
+        text-align: center; 
+    }
+
+    .subtitle-div{
+        height: 47px;
+        width: 718px;
+        padding: 15px 25px 30px 25px;
+    }
+
+    .lock-div{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 0px 25px;
+    }
+
+    .Reverse-email-sect{
+        height: 703px;
+        width: 768px;
+        background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+        padding-bottom: 60px;
+    
+    }
+
+    .reverse-email-lookup{
+        padding: 30px 25px 20px 25px;
+        height: 57px;
+        width: 718px;
+    }
+
+    .reverse-email-lookup-text{
+        padding: 0px 25px 30px 25px;
+        height: 112px;
+        width: 718px;
+    }
+    
+    .reverse-email-lookup-text p{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 22px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        line-height: 30px;
+    }
+
+    .divs-section{
+        height: 454px;
+        width: 718px;
+        margin: 0px 25px 0px 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+
+    .lorem-divs{
+        height: 128px;
+        width: 347px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    
+    }
+
+    .numbers{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 33.6px;
+        color: #F6BC25;
+        font-weight: bold;
+        margin: 9.8px 22px 13.2px 22px;
+        letter-spacing: 0;
+    }
+
+    .dot {
+        height: 63px;
+        width: 63px;
+        background-color: #004A80;
+        border-radius: 100%;
+        /*behavior: url(PIE.htc);
+        remove if you don't care about IE8*/ 
+        padding: 8px;
+    }
+
+    .inner-div-text{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    
+    .divs-container{
+        height: 96px;
+        width: 264px;
+        margin-left: 20px;
+    }
+    
+    .divs-container h2{
+        margin-bottom: 8px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #004A80;
+        letter-spacing: 0;
+    }
+
+    .footer{
+        width: 768px;
+        height: 88px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-paragraph{
+        margin: 14px 40px 14px 25px;
+        width: 575px;
+        height: 60px;
+    }
+    
+    .terms-privacy{
+        height: 17px;
+        width: 103px;
+        margin: 36px 25px 35px 0px; 
+    }
+    
+
+    /* IDs */
+
+    #email{
+        width: 518px;
+        height: 70px;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 414px){
+
+    body {
+        width: 320px;
+    }
+
+    /*CLASSES*/
+
+    .header-searchbar-sect{
+        height: 467px;
+        width: 320px;
+        background-color: #004A80;
+        overflow:auto;
+    }
+
+    .Logo-glass-person {
+        width: 270px;
+        padding: 20px 15px 32px 15px;
+        
+    }
+    .searchbar{
+        padding: 0px 25px 20px 15px;
+        height: 110px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .upper-subtitle{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .search-email{
+        height: 90px;
+        width: 290px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .h1-white{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-weight: bold;
+        font-size: 38px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center; 
+    }
+
+    .subtitle-div{
+        height: 64px;
+        width: 290px;
+        padding: 10px 15px 20px 15px;
+    }
+
+    .lock-div{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 0px 25px;
+    }
+
+    .Reverse-email-sect{
+        height: 1396px;
+        width: 320px;
+        background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    
+    }
+
+    .reverse-email-lookup{
+        padding: 30px 15px 15px 15px;
+        height: 90px;
+        width: 290px;
+    }
+
+    .reverse-email-lookup-text{
+        padding: 0px 15px 20px 15px;
+        height: 224px;
+        width: 290px;
+    }
+    
+    .reverse-email-lookup-text p{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 18px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        line-height: 28px;
+    }
+
+    .divs-section{
+        height: 1017px;
+        width: 320px;
+        margin: 0px 15px 0px 15px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .lorem-divs{
+        height: 152px;
+        width: 284px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+        margin-left: 6px;
+    
+    }
+
+    .numbers{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 26.88px;
+        color: #F6BC25;
+        font-weight: bold;
+        margin: 7.8px 17.7px 10.6px 17.7px;
+        letter-spacing: 0;
+    }
+
+    .dot {
+        height: 50.4px;
+        width: 50.4px;
+        background-color: #004A80;
+        border-radius: 100%;
+        /*behavior: url(PIE.htc);
+        remove if you don't care about IE8*/ 
+        padding: 8px;
+    }
+
+    .inner-div-text{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    
+    .divs-container{
+        height: 152px;
+        width: 284px;
+        margin-left: 10.6px;
+    }
+    
+    .divs-container h2{
+        margin-bottom: 8px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #004A80;
+        letter-spacing: 0;
+    }
+
+    .footer{
+        width: 320px;
+        height: 196px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-paragraph{
+        margin: 14px 15px 20px 15px;
+        width: 290px;
+        height: 120px;
+    }
+    
+    .terms-privacy{
+        height: 17px;
+        width: 103px;
+        margin: 0px 108px 25px 109px; 
+    }
+    
+
+    /* IDs */
+
+    #email{
+        width: 280px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    #go-button{
+        width: 280px;
+        height: 50px;
+        /*background-image: linear-gradient(to right , #F6BC25 , #F2DA56);*/
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #004A80;
+        margin-left: 2px;
+        background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+        box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+        border-radius: 6px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    #go-button:active{
+        width: 280px;
+        height: 50px;
+        /*background-image: linear-gradient(to right , #F6BC25 , #F2DA56);*/
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #004A80;
+        margin-left: 2px;
+        background: #F6BC25;
+        box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+        border-radius: 6px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    #go-button:not(:focus):hover {
+        width: 280px;
+        height: 50px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #004A80;
+        margin-left: 2px;
+        background: #F2DA56;
+        border-radius: 6px;
+        float: right;
+        cursor: pointer;
+    }
+
+    
+
+
+}
