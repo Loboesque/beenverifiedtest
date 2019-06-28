@@ -220,9 +220,119 @@ input::placeholder {
     letter-spacing: 2px;
 }
 
+.results-section{
 
+    width: 980px;
+    height: 412px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 30px;
+    margin: 30px 230px 60px 230px;
+    display: flex;
+    flex-direction: row;
+}
+ .person-img{
+     width: 40px;
+     margin: 18px 25px 21px 25px
+}
+
+.info-container{
+    width: 770px;
+    margin-top: 40px;
+}
+
+.individual-name-age{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+.individual-notes{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.various-data-divs{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 20px;
+}
+
+.individual-address{
+    width: 360px;
+    height: 78px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-right: 50px;
+
+}
+
+.individual-phone-numbers{
+    width: 360px;
+    height: 78px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+
+}
+
+.individual-email{
+    width: 360px;
+    height: 78px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-right: 50px;
+
+}
+
+.individual-relatives{
+    width: 360px;
+    height: 78px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+
+}
+
+
+.retrieved-info-titles{
+    height: 26px;
+    width: 360px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+}
 
 /*ID section*/
+
+#results-circle-person{
+    height: 90px;
+    width: 90px;
+    background-color: #004A80;
+    border-radius: 50%;
+    margin: 40px 20px 0px 40px;
+}
 
 #company-logo{
     height: 25px;
@@ -244,6 +354,7 @@ input::placeholder {
 #email{
     width: 780px;
     height: 70px;
+    border-radius: 3px;
 }
 
 #go-button{
@@ -351,7 +462,7 @@ input::placeholder {
     .h1-white{
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
         font-weight: bold;
-        font-size: 38px;
+        font-size: 48px;
         color: #FFFFFF;
         letter-spacing: 0;
         text-align: center; 
@@ -512,16 +623,16 @@ input::placeholder {
         height: 467px;
         width: 320px;
         background-color: #004A80;
-        overflow:auto;
     }
 
     .Logo-glass-person {
         width: 270px;
-        padding: 20px 15px 32px 15px;
+        padding: 20px 15px 30px 15px;
         
     }
     .searchbar{
         padding: 0px 25px 20px 15px;
+        margin-top: 48px;
         height: 110px;
         width: 280px;
         display: flex;
@@ -680,6 +791,7 @@ input::placeholder {
         width: 280px;
         height: 50px;
         margin-bottom: 10px;
+        border-radius: 3px;
     }
 
     #go-button{
@@ -734,7 +846,6 @@ input::placeholder {
 }
 
 
-
 /*-------------------- RESULT SCREEN ----------------------------*/
 
 
@@ -757,7 +868,7 @@ input::placeholder {
     width: 980px;
 }
 
-.results-container h2{
+#subLook{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 24px;
     color: #000000;
@@ -904,6 +1015,15 @@ input::placeholder {
         padding: 0px 15px 20px 15px;
     }
 
+    .searchbar{
+        padding: 0px 25px 20px 15px;
+        height: 110px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
     #email{
         width: 280px;
         height: 50px;
@@ -913,4 +1033,3 @@ input::placeholder {
     
 
 }
-
