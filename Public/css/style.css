@@ -1008,9 +1008,43 @@ input::placeholder {
         color: #000000;
         letter-spacing: 0;
         line-height: 24px;
-        height: fit-content;
-        width: fit-content;
+        height: 48px;
+        width: 585px;
         margin-top: 7px;
+    }
+
+    .individual-phone-numbers{
+        width: 280px;
+        height: 78px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 26px;
+    
+    }
+    
+    .individual-email{
+        width: 280px;
+        height: 78px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 26px;
+        margin-right: 50px;
+    
+    }
+    
+    .individual-relatives{
+        width: 280px;
+        height: 78px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 26px;
+    
     }
 
     #relativesPP{
@@ -1035,6 +1069,7 @@ input::placeholder {
 
 
 @media only screen and (max-width: 414px){
+
 
     .result-page-header{
         height: 65px;
@@ -1123,6 +1158,7 @@ input::placeholder {
     .info-container{
         width: 260px;
         margin-top: 25px;
+        margin-left: 15px;
     }
 
     .individual-name-age{
@@ -1168,9 +1204,13 @@ input::placeholder {
         color: #000000;
         letter-spacing: 0;
         line-height: 24px;
-        height: fit-content;
-        width: fit-content;
+        height: 96px;
+        width: 260px;
         margin-top: 7px;
+    }
+
+    .name-notes-container{
+        padding-bottom: 15px;
     }
 
     #email{
