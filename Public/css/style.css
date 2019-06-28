@@ -909,7 +909,7 @@ input::placeholder {
         width: 718px;
     }
     
-    .results-container h2{
+    #subLook{
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
         font-size: 20px;
         color: #000000;
@@ -942,10 +942,94 @@ input::placeholder {
         text-align: center; 
     }
 
+    .results-section{
+
+        width: 718px;
+        height: 393px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+        border-radius: 30px;
+        margin: 30px 25px 40px 25px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .person-img{
+        width: 28px;
+        margin: 16.1px 17.5px 14.7px 17.5px
+   }
+
+   .info-container{
+    width: 585px;
+    margin-top: 30px;
+    }
+
+    .individual-name-age{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #004A80;
+        letter-spacing: 0;
+    }
+
+    .various-data-divs{
+        
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 20px;
+    }
+
+    .individual-address{
+        width: 280px;
+        height: 96px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+        margin-right: 5px;
+    
+    }
+
+    .retrieved-info-titles{
+        height: 24px;
+        width: 280px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #004A80;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+
+    .individual-notes{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 7px;
+    }
+
+    #relativesPP{
+        float: right;
+    }
+
     #email{
         width: 518px;
         height: 70px;
     }
+
+    #results-circle-person{
+        height: 63px;
+        width: 63px;
+        background-color: #004A80;
+        border-radius: 50%;
+        margin: 30px 10px 0px 30px;
+    }
+    
 
 }
 
@@ -970,7 +1054,7 @@ input::placeholder {
         width: 290px;
     }
     
-    .results-container h2{
+    #subLook{
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
         font-size: 18px;
         color: #000000;
@@ -1024,12 +1108,84 @@ input::placeholder {
         
     }
 
+    .results-section{
+
+        width: 290px;
+        height: 610px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+        border-radius: 30px;
+        margin: 8px 15px 30px 15px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info-container{
+        width: 260px;
+        margin-top: 25px;
+    }
+
+    .individual-name-age{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #004A80;
+        letter-spacing: 0;
+    }
+
+    .various-data-divs{
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 15px;
+    }
+
+    .individual-address{
+        width: 260px;
+        height: 96px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+        /*margin-right: 25px;*/
+    
+    }
+
+    .retrieved-info-titles{
+        height: 24px;
+        width: 260px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #004A80;
+        letter-spacing: 0;
+        margin-bottom: 5px;
+    }
+
+    .individual-notes{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 24px;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 7px;
+    }
+
     #email{
         width: 280px;
         height: 50px;
         margin-bottom: 10px;
     }
 
+    #results-circle-person{
+        display: none;
+    }
+
+    .person-img{
+        display: none;
+   }
     
 
 }
