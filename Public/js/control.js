@@ -118,9 +118,6 @@ function buscarPorEmail() {
 
     }
 
-    console.log(emailToSearch)
-    console.log(personas.data[0].name);
-
 
     for(i = 0; i < personas.data.length; i++){
 
