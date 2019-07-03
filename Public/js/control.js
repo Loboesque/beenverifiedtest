@@ -1,10 +1,6 @@
-/*
 const botonGO = document.querySelector('#go-button');
-const appen1 = document.querySelector('.info-container');
 
-//const inputEmailValue = document.querySelector('#email').value;
-
-botonGO.addEventListener('click', buscarPorEmail);*/
+botonGO.addEventListener('click', buscarPorEmail2);
 
 buscarPorEmail();
 
@@ -123,7 +119,6 @@ function buscarPorEmail() {
 
         if(personas.data[i].email == emailToSearch){
 
-            //console.log("Yes!" + JSON.stringify(personas.data[i]));
             
             var nameAge = document.createElement("p");
             let name = personas.data[i].name;
@@ -152,17 +147,65 @@ function buscarPorEmail() {
             relativesP.innerText = personas.data[i].relatives[0].name;
             relativesP.setAttribute("class", "individual-relatives");
 
+            document.getElementById("name-container-dinamic").innerHTML='';
+            document.getElementById("divsData").innerHTML='';
 
 
+            var addressDiv = document.createElement("div");
+            addressDiv.setAttribute("class", "individual-address");
+            addressDiv.setAttribute("id", "addressP");
 
+            var h2Address = document.createElement("h2");
+            h2Address.setAttribute("class", "retrieved-info-titles");
+            h2Address.innerText = "Address";
+
+
+            var phoneDiv = document.createElement("div");
+            phoneDiv.setAttribute("class", "individual-phone-numbers");
+            phoneDiv.setAttribute("id", "phoneP");
+
+            var h2Phone = document.createElement("h2");
+            h2Phone.setAttribute("class", "retrieved-info-titles");
+            h2Phone.innerText = "Phone Numbers";
+
+
+            var emailDiv = document.createElement("div");
+            emailDiv.setAttribute("class", "individual-email");
+            emailDiv.setAttribute("id", "emailP");
+
+            var h2Email = document.createElement("h2");
+            h2Email.setAttribute("class", "retrieved-info-titles");
+            h2Email.innerText = "Email";
+
+
+            var relativesDiv = document.createElement("div");
+            relativesDiv.setAttribute("class", "individual-relatives");
+            relativesDiv.setAttribute("id", "relativesPP");
+
+            var h2Relatives = document.createElement("h2");
+            h2Relatives.setAttribute("class", "retrieved-info-titles");
+            h2Relatives.innerText = "Relatives";
+
+
+            addressDiv.appendChild(h2Address);
+            addressDiv.appendChild(addressP);
+            phoneDiv.appendChild(h2Phone);
+            phoneDiv.appendChild(phoneNumbersP);
+            emailDiv.appendChild(h2Email);
+            emailDiv.appendChild(emailP);
+            relativesDiv.appendChild(h2Relatives);
+            relativesDiv.appendChild(relativesP);
 
 
             document.getElementById("name-container-dinamic").appendChild(nameAge);
             document.getElementById("name-container-dinamic").appendChild(notesP);
-            document.getElementById("addressP").appendChild(addressP);
-            document.getElementById("phoneP").appendChild(phoneNumbersP);
-            document.getElementById("emailP").appendChild(emailP);
-            document.getElementById("relativesPP").appendChild(relativesP);
+
+            document.getElementById("divsData").appendChild(addressDiv);
+            document.getElementById("divsData").appendChild(phoneDiv);
+            document.getElementById("divsData").appendChild(emailDiv);
+            document.getElementById("divsData").appendChild(relativesDiv);
+
+            
 
         }else{
 
@@ -176,20 +219,10 @@ function buscarPorEmail() {
 }
 
 
-/*var nameAge = document.createElement("p")
-            let name = personas.data[i].name
-            let age = personas.data[i].age
+function buscarPorEmail2() {
 
-            nameAge.innerText = name+", "+age
-            document.getElementsByClassName("name-notes-container").appendChild(nameAge);*/
-
-
-
-
-
-
-
-/*function guardarPersonasLocalStorage() {
+    const inputEmailValue = document.querySelector('#email').value;
+    //let emailToSearch = JSON.parse(localStorage.getItem("emailParaVerificar"));
 
     let personas = {
 
@@ -293,19 +326,103 @@ function buscarPorEmail() {
 
     for(i = 0; i < personas.data.length; i++){
 
-        if(personas.data[i].email == emailValue){
+        if(personas.data[i].email == inputEmailValue){
 
-        }else{}
+            
+            var nameAge = document.createElement("p");
+            let name = personas.data[i].name;
+            let age = personas.data[i].age;
 
-        console.log(personas.data[i])
+            nameAge.innerText = name+", "+age;
+            nameAge.setAttribute("class", "individual-name-age");
+
+            var notesP = document.createElement("p");
+            notesP.innerText = personas.data[i].notes;
+            notesP.setAttribute("class", "individual-notes");
+
+            var addressP = document.createElement("p");
+            addressP.innerText = personas.data[i].address;
+            addressP.setAttribute("class", "individual-address");
+
+            var phoneNumbersP = document.createElement("p");
+            phoneNumbersP.innerText = personas.data[i].phoneNumbers[0].phone;
+            phoneNumbersP.setAttribute("class", "individual-phone-numbers");
+
+            var emailP = document.createElement("p");
+            emailP.innerText = personas.data[i].email;
+            emailP.setAttribute("class", "individual-email");
+
+            var relativesP = document.createElement("p");
+            relativesP.innerText = personas.data[i].relatives[0].name;
+            relativesP.setAttribute("class", "individual-relatives");
+
+            document.getElementById("name-container-dinamic").innerHTML='';
+            document.getElementById("divsData").innerHTML='';
+
+
+            var addressDiv = document.createElement("div");
+            addressDiv.setAttribute("class", "individual-address");
+            addressDiv.setAttribute("id", "addressP");
+
+            var h2Address = document.createElement("h2");
+            h2Address.setAttribute("class", "retrieved-info-titles");
+            h2Address.innerText = "Address";
+
+
+            var phoneDiv = document.createElement("div");
+            phoneDiv.setAttribute("class", "individual-phone-numbers");
+            phoneDiv.setAttribute("id", "phoneP");
+
+            var h2Phone = document.createElement("h2");
+            h2Phone.setAttribute("class", "retrieved-info-titles");
+            h2Phone.innerText = "Phone Numbers";
+
+
+            var emailDiv = document.createElement("div");
+            emailDiv.setAttribute("class", "individual-email");
+            emailDiv.setAttribute("id", "emailP");
+
+            var h2Email = document.createElement("h2");
+            h2Email.setAttribute("class", "retrieved-info-titles");
+            h2Email.innerText = "Email";
+
+
+            var relativesDiv = document.createElement("div");
+            relativesDiv.setAttribute("class", "individual-relatives");
+            relativesDiv.setAttribute("id", "relativesPP");
+
+            var h2Relatives = document.createElement("h2");
+            h2Relatives.setAttribute("class", "retrieved-info-titles");
+            h2Relatives.innerText = "Relatives";
+
+
+            addressDiv.appendChild(h2Address);
+            addressDiv.appendChild(addressP);
+            phoneDiv.appendChild(h2Phone);
+            phoneDiv.appendChild(phoneNumbersP);
+            emailDiv.appendChild(h2Email);
+            emailDiv.appendChild(emailP);
+            relativesDiv.appendChild(h2Relatives);
+            relativesDiv.appendChild(relativesP);
+
+
+            document.getElementById("name-container-dinamic").appendChild(nameAge);
+            document.getElementById("name-container-dinamic").appendChild(notesP);
+
+            document.getElementById("divsData").appendChild(addressDiv);
+            document.getElementById("divsData").appendChild(phoneDiv);
+            document.getElementById("divsData").appendChild(emailDiv);
+            document.getElementById("divsData").appendChild(relativesDiv);
+
+            
+        }else{
+
+
+        }
+
     }
 
-    
 
-};*/
 
-/*function setPersonasStorage(personasLocal) {
-    localStorage.setItem("personasParaVerificar", JSON.stringify(personasLocal));
-    console.log(JSON.parse(localStorage.getItem("personasParaVerificar")));
+}
 
-}*/
