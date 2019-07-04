@@ -38,6 +38,16 @@ h4{
 
 /*classes*/
 
+.container1{
+    width: 347px;
+    height: fit-content;
+}
+
+.container2{
+    width: 347px;
+    height: fit-content;
+}
+
 .header-searchbar-sect{
     height: 444px;
     width: 1440px;
@@ -426,7 +436,6 @@ input::placeholder {
         height: 423px;
         width: 768px;
         background-color: #004A80;
-        overflow:auto;
     }
 
     .Logo-glass-person {
@@ -611,7 +620,7 @@ input::placeholder {
 
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 320px),(max-width: 414px) {
 
     body {
         width: 320px;
@@ -706,7 +715,7 @@ input::placeholder {
     .divs-section{
         height: 1017px;
         width: 320px;
-        margin: 0px 15px 0px 15px;
+        margin: 0px 0px 0px 15px;
         display: flex;
         flex-direction: column;
     
@@ -720,6 +729,16 @@ input::placeholder {
         margin-bottom: 15px;
         margin-left: 6px;
     
+    }
+
+    .container1{
+        width: 284px;
+        height: fit-content;
+    }
+
+    .container2{
+        width: 284px;
+        height: fit-content;
     }
 
     .numbers{
@@ -736,8 +755,6 @@ input::placeholder {
         width: 50.4px;
         background-color: #004A80;
         border-radius: 100%;
-        /*behavior: url(PIE.htc);
-        remove if you don't care about IE8*/ 
         padding: 8px;
     }
 
@@ -841,8 +858,6 @@ input::placeholder {
     }
 
     
-
-
 }
 
 
@@ -1068,7 +1083,7 @@ input::placeholder {
 }
 
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 320px), (max-width: 414px){
 
 
     .result-page-header{
