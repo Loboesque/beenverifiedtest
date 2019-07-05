@@ -290,12 +290,13 @@ input::placeholder {
 
 .individual-phone-numbers{
     width: 360px;
-    height: 78px;
+    height: 109px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 18px;
-    color: #000000;
+    color: #004A80;
     letter-spacing: 0;
     line-height: 26px;
+    margin-bottom: 20px;
 
 }
 
@@ -313,12 +314,13 @@ input::placeholder {
 
 .individual-relatives{
     width: 360px;
-    height: 78px;
+    /*height: 78px;*/
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 18px;
     color: #000000;
     letter-spacing: 0;
     line-height: 26px;
+    margin-bottom: 40px;
 
 }
 
@@ -974,9 +976,9 @@ input::placeholder {
         margin: 16.1px 17.5px 14.7px 17.5px
    }
 
-   .info-container{
-    width: 585px;
-    margin-top: 30px;
+    .info-container{
+        width: 585px;
+        margin-top: 30px;
     }
 
     .individual-name-age{
@@ -991,7 +993,6 @@ input::placeholder {
         
         display: flex;
         flex-flow: wrap;
-        margin-top: 20px;
     }
 
     .individual-address{
@@ -1030,7 +1031,7 @@ input::placeholder {
 
     .individual-phone-numbers{
         width: 280px;
-        height: 78px;
+        height: 109px;
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
         font-size: 18px;
         color: #000000;
@@ -1047,7 +1048,7 @@ input::placeholder {
         color: #000000;
         letter-spacing: 0;
         line-height: 26px;
-        margin-right: 50px;
+        margin-right: 5px;
     
     }
     

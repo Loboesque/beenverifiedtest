@@ -2,6 +2,9 @@ const botonGO = document.querySelector('#go-button');
 
 botonGO.addEventListener('click', buscarPorEmail2);
 
+let numeros = [];
+let familiares = [];
+
 buscarPorEmail();
 
 /*function getEmail(){
@@ -135,16 +138,22 @@ function buscarPorEmail() {
             addressP.innerText = personas.data[i].address;
             addressP.setAttribute("class", "individual-address");
 
+            let thisPersonPhones = personas.data[i].phoneNumbers;
+            getPhones(thisPersonPhones);
+
             var phoneNumbersP = document.createElement("p");
-            phoneNumbersP.innerText = personas.data[i].phoneNumbers[0].phone;
+            phoneNumbersP.innerText =  numeros;
             phoneNumbersP.setAttribute("class", "individual-phone-numbers");
 
             var emailP = document.createElement("p");
             emailP.innerText = personas.data[i].email;
             emailP.setAttribute("class", "individual-email");
 
+            let thisPersonRelatives = personas.data[i].relatives;
+            getRelatives(thisPersonRelatives);
+
             var relativesP = document.createElement("p");
-            relativesP.innerText = personas.data[i].relatives[0].name;
+            relativesP.innerText = familiares;
             relativesP.setAttribute("class", "individual-relatives");
 
             document.getElementById("name-container-dinamic").innerHTML='';
@@ -215,8 +224,43 @@ function buscarPorEmail() {
     }
 
 
+}
+
+
+function getPhones(thisPersonPhones){
+
+    for(u = 0; u < numeros.length; u++){
+
+        numeros[u] = '';
+
+    }
+    
+
+    for(e = 0; e < thisPersonPhones.length; e++){
+
+        numeros[e] = JSON.stringify(thisPersonPhones[e].phone);
+
+    }
 
 }
+
+function getRelatives(thisPersonRelatives){
+
+    for(z = 0; z < familiares.length; z++){
+
+        familiares[z] = '';
+
+    }
+    
+
+    for(e = 0; e < thisPersonRelatives.length; e++){
+
+        familiares[e] = JSON.stringify(thisPersonRelatives[e].name);
+
+    }
+
+}
+
 
 
 function buscarPorEmail2() {
@@ -344,16 +388,22 @@ function buscarPorEmail2() {
             addressP.innerText = personas.data[i].address;
             addressP.setAttribute("class", "individual-address");
 
+            let thisPersonPhones = personas.data[i].phoneNumbers;
+            getPhones(thisPersonPhones);
+
             var phoneNumbersP = document.createElement("p");
-            phoneNumbersP.innerText = personas.data[i].phoneNumbers[0].phone;
+            phoneNumbersP.innerText =  numeros;
             phoneNumbersP.setAttribute("class", "individual-phone-numbers");
 
             var emailP = document.createElement("p");
             emailP.innerText = personas.data[i].email;
             emailP.setAttribute("class", "individual-email");
 
+            let thisPersonRelatives = personas.data[i].relatives;
+            getRelatives(thisPersonRelatives);
+
             var relativesP = document.createElement("p");
-            relativesP.innerText = personas.data[i].relatives[0].name;
+            relativesP.innerText = familiares;
             relativesP.setAttribute("class", "individual-relatives");
 
             document.getElementById("name-container-dinamic").innerHTML='';
@@ -415,6 +465,7 @@ function buscarPorEmail2() {
             document.getElementById("divsData").appendChild(relativesDiv);
 
             
+
         }else{
 
 
