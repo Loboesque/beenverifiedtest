@@ -1036,7 +1036,7 @@ input::placeholder {
         height: 109px;
         font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
         font-size: 18px;
-        color: #000000;
+        color: #004A80;
         letter-spacing: 0;
         line-height: 26px;
     
@@ -1098,7 +1098,7 @@ input::placeholder {
     
     .results-container{
         width: 320px;
-        height: 822px;
+        height: 832px;
         background-color: #F8F8F8;
     }
     
@@ -1165,7 +1165,7 @@ input::placeholder {
     .results-section{
 
         width: 290px;
-        height: 610px;
+        height: 620px;
         background-color: #FFFFFF;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
         border-radius: 30px;
@@ -1226,6 +1226,11 @@ input::placeholder {
         height: 96px;
         width: 260px;
         margin-top: 7px;
+    }
+    .individual-phone-numbers{
+        width: 275px;
+        color: #004A80;
+    
     }
 
     .name-notes-container{
