@@ -29,7 +29,9 @@
                 profiles. See what you find!</h2>
         </div>
         <div class="searchbar">
-            <input type="email" id="email" placeholder="EMAIL" required>
+            <input type="email" id="email" onclick="togglePlaceholder()" required>
+            <label id="emailLabel" class="label1">EMAIL</label>
+            <label for="" id="labelError">Please add a valid email address</label>
             <button type="button" id="go-button">GO!</button>
         </div>
         <div class="lock-div">

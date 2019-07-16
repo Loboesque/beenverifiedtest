@@ -422,6 +422,43 @@ input::placeholder {
     padding: 0px 15px 0px 0px;
 }
 
+#labelError{
+    position: absolute;
+    margin: 10px 0px 0px 12px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #DC0015;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: none;
+
+}
+
+.label1{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    position: absolute;
+    font-weight: bold;
+    margin: 30px 0px 0px 12px;
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+    pointer-events: none;
+}
+
+.label2{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    position: absolute;
+    font-weight: bold;
+    margin: 10px 0px 0px 12px;
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+    pointer-events: none;
+    transition-duration: 0.5s;
+}
+
 
 /* beginning of RESPONSIVE CSS */
 /* TABLET RES*/
@@ -857,6 +894,43 @@ input::placeholder {
         border-radius: 6px;
         float: right;
         cursor: pointer;
+    }
+
+    #labelError{
+        position: absolute;
+        margin: 3px 0px 0px 12px;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        color: #DC0015;
+        letter-spacing: 0;
+        line-height: 18px;
+        display: none;
+    
+    }
+
+    .label1{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        position: absolute;
+        font-weight: bold;
+        margin: 7px 0px 0px 12px;
+        font-size: 16px;
+        color: #9B9B9B;
+        letter-spacing: 2px;
+        line-height: 18px;
+        pointer-events: none;
+    }
+    
+    .label2{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+        position: absolute;
+        font-weight: bold;
+        margin: 3px 0px 0px 12px;
+        font-size: 16px;
+        color: #9B9B9B;
+        letter-spacing: 2px;
+        line-height: 18px;
+        pointer-events: none;
+        transition-duration: 0.5s;
     }
 
     

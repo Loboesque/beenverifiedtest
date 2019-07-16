@@ -28,7 +28,8 @@
         </div>
         <h2 id="subLook">Look at the result below to see the details of the person you’re searched for.</h2>
         <section class="results-section">
-            <div id="results-circle-person"><img class="person-img" src="img/assets/PNGs/icn_person@2x.png" alt="person"></div>
+            <div id="results-circle-person"><img class="person-img" src="img/assets/PNGs/icn_person@2x.png"
+                    alt="person"></div>
             <div class="info-container">
                 <div class="name-notes-container" id="name-container-dinamic">
 
@@ -49,7 +50,9 @@
                 <h2 class="upper-subtitle"> <span class="yellow">Try Again</span> - Make a new search</h2>
             </div>
             <div class="searchbar">
-                <input type="email" id="email" placeholder="EMAIL" required>
+                <input type="email" id="email" onclick="togglePlaceholder()" required>
+                <label id="emailLabel" class="label1">EMAIL</label>
+                <label for="" id="labelError">Please add a valid email address</label>
                 <button type="button" id="go-button">GO!</button>
             </div>
             <div class="lock-div">
@@ -60,8 +63,10 @@
     </section>
     <section class="footer">
         <div class="footer-paragraph">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
                 consequat.
             </p>
         </div>
