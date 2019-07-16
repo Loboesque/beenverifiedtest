@@ -1,5 +1,6 @@
 /*items*/
 
+
 .h1-white{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     font-weight: bold;
@@ -241,7 +242,8 @@ input::placeholder {
     display: flex;
     flex-direction: row;
 }
- .person-img{
+
+.person-img{
      width: 40px;
      margin: 18px 25px 21px 25px
 }
@@ -458,7 +460,6 @@ input::placeholder {
     pointer-events: none;
     transition-duration: 0.5s;
 }
-
 
 /* beginning of RESPONSIVE CSS */
 /* TABLET RES*/
